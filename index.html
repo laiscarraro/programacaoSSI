@@ -5,7 +5,7 @@
     <script>document.getElementsByTagName("html")[0].className += " js";</script>
     <link rel="stylesheet" href="assets/css/style.css">
     <style>
-    a:link, a:visited {
+    #botaoInscr a:link, a:visited {
       color: white;
       border: 1px solid white;
       padding: 22px 18px 22px;
@@ -14,7 +14,7 @@
       border-radius:3px;
       display: inline-block;
     }
-    a:hover, a:active {
+    #botaoInscr a:hover, a:active {
       background-color: white;
       color: hsl(300, 33.3%, 23.5%);
       transition: all 0.2s ease-out;
@@ -33,8 +33,10 @@
     <br>
     <h1 class="text-xl">Semana de Sistemas de Informação</h1>
     <br>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeaQXWi2MIlaXA0WvNsp64A282WCvIUBXe-k1ZK9p7Hrv8Row/viewform" id="botaoInscr">INSCREVA-SE!</a>
-  </header>
+    <div id="botaoInscr">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeaQXWi2MIlaXA0WvNsp64A282WCvIUBXe-k1ZK9p7Hrv8Row/viewform">INSCREVA-SE!</a>
+    </div> 
+ </header>
 
   <div class="cd-schedule cd-schedule--loading margin-top-lg margin-bottom-lg js-cd-schedule">
     <div class="cd-schedule__timeline">
