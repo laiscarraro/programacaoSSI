@@ -11,11 +11,17 @@
       padding: 22px 18px 22px;
       text-align: center;
       text-decoration: none;
+      border-radius:3px;
       display: inline-block;
     }
     a:hover, a:active {
       background-color: white;
       color: hsl(300, 33.3%, 23.5%);
+      transition: all 0.2s ease-out;
+      transition-property: all;
+      transition-duration: 0.2s;
+      transition-timing-function: ease-out;
+      transition-delay: initial;
     }
     </style>
     <title>SSI-IX - Programação</title>
@@ -27,13 +33,7 @@
     <br>
     <h1 class="text-xl">Semana de Sistemas de Informação</h1>
     <br>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeaQXWi2MIlaXA0WvNsp64A282WCvIUBXe-k1ZK9p7Hrv8Row/viewform" style="
-              transition: all 0.2s ease-out;
-              transition-property: all;
-              transition-duration: 0.2s;
-              transition-timing-function: ease-out;
-              transition-delay: initial;
-      ">INSCREVA-SE!</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeaQXWi2MIlaXA0WvNsp64A282WCvIUBXe-k1ZK9p7Hrv8Row/viewform" id="botaoInscr">INSCREVA-SE!</a>
   </header>
 
   <div class="cd-schedule cd-schedule--loading margin-top-lg margin-bottom-lg js-cd-schedule">
